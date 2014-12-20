@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf $PWD/data
+#scp root@stats.andone.co:/tmp/player_plus_minus.csv data
+scp -r root@stats.andone.co:/home/nba-collector/out data
